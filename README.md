@@ -80,6 +80,6 @@ Add Book
 ![Screenshot 2025-01-31 174818](https://github.com/user-attachments/assets/09ae10ad-cffc-40b6-96cf-ab516c64f2b1)
 
 ## 📧 Contact
-For any inquiries or feedback, please contact:
-Sumit Chhetri | [JurgenHonest](https://github.com/JurgenHonest)
+For any inquiries or feedback, please contact:<br>
+Sumit Chhetri | [Sumit Chhetri(JurgenHonest)](https://github.com/JurgenHonest)
 
