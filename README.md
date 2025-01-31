@@ -21,13 +21,14 @@ A lightweight bookstore management system built with **Flask**, **SQLite**, **Bo
 ---
 
 ## 📂 Project Structure  
-```plaintext
+```
 📂 Project Directory
 ├── 📁 templates
 │   └── index.html    # Main HTML file
 ├── 📁 static
 │   ├── script.js     # JavaScript for dynamic functionality
-│   ├── lightstyle.css # Styling file
+│   ├── lightstyle.css # Light theme styling file
+│   ├── darkstyle.css  # Dark theme styling file
 │   └── favicon.png   # Favicon
 ├── app.py            # Flask application
 ├── bookstore.db      # SQLite database (generated at runtime)
