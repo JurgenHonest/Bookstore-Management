@@ -35,6 +35,8 @@ A lightweight bookstore management system built with **Flask**, **SQLite**, **Bo
 ├── bookstore.db      # SQLite database (generated at runtime)
 └── README.md         # Project documentation
 ```
+----
+
 ## 🚀 Getting Started
 ### 1. Prerequisites
 Ensure you have Python 3.x installed.
@@ -53,6 +55,8 @@ python app.py
 ```
 http://127.0.0.1:5000
 ```
+----
+
 ## 🔑API Endpoints
 
 ### Books API
@@ -71,6 +75,8 @@ http://127.0.0.1:5000
 | `PUT`       | `/sales/:id`          | Update sale details by ID      | `{ bookId, quantity }`   | Updated sale JSON |
 | `DELETE`    | `/sales/:id`          | Delete a sale by ID            | N/A                      | Success message   |
 
+------
+
 ## 🖼️ Screenshots
 Home Page
 
@@ -78,6 +84,8 @@ Home Page
 
 Add Book
 ![Screenshot 2025-01-31 174818](https://github.com/user-attachments/assets/09ae10ad-cffc-40b6-96cf-ab516c64f2b1)
+
+-----
 
 ## 📧 Contact
 For any inquiries or feedback, please contact:<br>
