@@ -67,6 +67,8 @@ http://127.0.0.1:5000
 | `PUT`       | `/books/:id`          | Update book details by ID      | `{ title, author, year }`| Updated book JSON |
 | `DELETE`    | `/books/:id`          | Delete a book by ID            | N/A                      | Success message   |
 
+
+
 ### Sales API
 | HTTP Method | Endpoint               | Description                     | Request Body             | Response          |
 |-------------|------------------------|---------------------------------|--------------------------|-------------------|
@@ -81,6 +83,8 @@ http://127.0.0.1:5000
 Home Page
 
 ![Screenshot 2025-01-31 174652](https://github.com/user-attachments/assets/3c241ece-5b06-4c3e-9a0e-6763fec7f4ff)
+
+-----
 
 Add Book
 ![Screenshot 2025-01-31 174818](https://github.com/user-attachments/assets/09ae10ad-cffc-40b6-96cf-ab516c64f2b1)
