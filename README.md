@@ -71,10 +71,15 @@ http://127.0.0.1:5000
 | `PUT`       | `/sales/:id`          | Update sale details by ID      | `{ bookId, quantity }`   | Updated sale JSON |
 | `DELETE`    | `/sales/:id`          | Delete a sale by ID            | N/A                      | Success message   |
 
-🖼️ Screenshots
+## 🖼️ Screenshots
 Home Page
 
 ![Screenshot 2025-01-31 174652](https://github.com/user-attachments/assets/3c241ece-5b06-4c3e-9a0e-6763fec7f4ff)
 
 Add Book
 ![Screenshot 2025-01-31 174818](https://github.com/user-attachments/assets/09ae10ad-cffc-40b6-96cf-ab516c64f2b1)
+
+## 📧 Contact
+For any inquiries or feedback, please contact:
+Sumit Chhetri | [JurgenHonest](https://github.com/JurgenHonest)
+
