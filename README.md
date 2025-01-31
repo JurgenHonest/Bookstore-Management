@@ -32,3 +32,22 @@ A lightweight bookstore management system built with **Flask**, **SQLite**, **Bo
 ├── app.py            # Flask application
 ├── bookstore.db      # SQLite database (generated at runtime)
 └── README.md         # Project documentation
+```
+## 🚀 Getting Started
+### 1. Prerequisites
+Ensure you have Python 3.x installed.
+
+### 2. Installation
+#### 1. Install dependencies:
+```
+pip install flask flask-cors
+```
+
+#### 2. Run the Flask application:
+```
+python app.py
+```
+#### 3. Open your browser and navigate to:
+```
+http://127.0.0.1:5000
+```
