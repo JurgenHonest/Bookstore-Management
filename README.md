@@ -53,10 +53,20 @@ python app.py
 ```
 http://127.0.0.1:5000
 ```
-| Feature          | Description                     | Status    |
-|-------------------|---------------------------------|-----------|
-| Add Books         | Add new books to the system    | ✅ Done   |
-| Update Books      | Edit book details              | ✅ Done   |
-| Delete Books      | Remove books from the system   | ✅ Done   |
-| Dark Theme        | Switch to dark mode styling    | 🟡 In Progress |
-| Sales Reporting   | Generate sales reports         | ❌ Pending |
+## API Endpoints
+
+### Books API
+| HTTP Method | Endpoint               | Description                     | Request Body             | Response          |
+|-------------|------------------------|---------------------------------|--------------------------|-------------------|
+| `GET`       | `/books`              | Fetch all books                | N/A                      | JSON of all books |
+| `POST`      | `/books`              | Add a new book                 | `{ title, author, year }`| JSON of new book  |
+| `PUT`       | `/books/:id`          | Update book details by ID      | `{ title, author, year }`| Updated book JSON |
+| `DELETE`    | `/books/:id`          | Delete a book by ID            | N/A                      | Success message   |
+
+### Sales API
+| HTTP Method | Endpoint               | Description                     | Request Body             | Response          |
+|-------------|------------------------|---------------------------------|--------------------------|-------------------|
+| `GET`       | `/sales`              | Fetch all sales                | N/A                      | JSON of all sales |
+| `POST`      | `/sales`              | Record a new sale              | `{ bookId, quantity }`   | JSON of new sale  |
+| `PUT`       | `/sales/:id`          | Update sale details by ID      | `{ bookId, quantity }`   | Updated sale JSON |
+| `DELETE`    | `/sales/:id`          | Delete a sale by ID            | N/A                      | Success message   |
