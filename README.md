@@ -9,6 +9,7 @@ A lightweight bookstore management system built with **Flask**, **SQLite**, **Bo
 - Record and view sales transactions.
 - Real-time book stock updates upon sales.
 - Responsive UI using **Bootstrap**.
+- Supports light and dark themes with **lightstyle.css** and **darkstyle.css**.
 
 ---
 
@@ -52,3 +53,10 @@ python app.py
 ```
 http://127.0.0.1:5000
 ```
+| Feature          | Description                     | Status    |
+|-------------------|---------------------------------|-----------|
+| Add Books         | Add new books to the system    | ✅ Done   |
+| Update Books      | Edit book details              | ✅ Done   |
+| Delete Books      | Remove books from the system   | ✅ Done   |
+| Dark Theme        | Switch to dark mode styling    | 🟡 In Progress |
+| Sales Reporting   | Generate sales reports         | ❌ Pending |
