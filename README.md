@@ -80,18 +80,19 @@ http://127.0.0.1:5000
 ------
 
 ## 🖼️ Screenshots
-Home Page
+**Home Page**
 
 ![Screenshot 2025-01-31 174652](https://github.com/user-attachments/assets/3c241ece-5b06-4c3e-9a0e-6763fec7f4ff)
 
 -----
 
-Add Book
+**Add Book**
+
 ![Screenshot 2025-01-31 174818](https://github.com/user-attachments/assets/09ae10ad-cffc-40b6-96cf-ab516c64f2b1)
 
 -----
 
 ## 📧 Contact
 For any inquiries or feedback, please contact:<br>
-Sumit Chhetri | [Sumit Chhetri(JurgenHonest)](https://github.com/JurgenHonest)
+Sumit Chhetri &nbsp; | &nbsp; [Sumit Chhetri(JurgenHonest)](https://github.com/JurgenHonest)
 
