@@ -53,7 +53,7 @@ python app.py
 ```
 http://127.0.0.1:5000
 ```
-## API Endpoints
+## 🔑API Endpoints
 
 ### Books API
 | HTTP Method | Endpoint               | Description                     | Request Body             | Response          |
@@ -70,3 +70,11 @@ http://127.0.0.1:5000
 | `POST`      | `/sales`              | Record a new sale              | `{ bookId, quantity }`   | JSON of new sale  |
 | `PUT`       | `/sales/:id`          | Update sale details by ID      | `{ bookId, quantity }`   | Updated sale JSON |
 | `DELETE`    | `/sales/:id`          | Delete a sale by ID            | N/A                      | Success message   |
+
+🖼️ Screenshots
+Home Page
+
+![Screenshot 2025-01-31 174652](https://github.com/user-attachments/assets/3c241ece-5b06-4c3e-9a0e-6763fec7f4ff)
+
+Add Book
+![Screenshot 2025-01-31 174818](https://github.com/user-attachments/assets/09ae10ad-cffc-40b6-96cf-ab516c64f2b1)
